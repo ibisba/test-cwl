@@ -1,6 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
 label: RNASelector as a CWL workflow
+doc: "https://doi.org/10.1007/s12275-011-1213-z"
 
 requirements:
  - class: StepInputExpressionRequirement
