@@ -1,0 +1,20 @@
+{
+    "../tools/RetroPath2/RetroPath2.cwl": {
+        "checksum": "8d4ed2f0ffd6a1a4e3b7caef7a9b4567f3305804",
+        "installed_to": [
+            "../tools/RetroPath2/RetroPath2.cwl"
+        ],
+        "retrieved_at": "2019-03-21T12:25:38.372138+00:00",
+        "upstream": "https://raw.githubusercontent.com/ibisba/RetroPath2-cwl/0.0.1/tools/RetroPath2.cwl",
+        "version": ""
+    },
+    "../tools/rp2paths/rp2paths.cwl": {
+        "checksum": "b257af369966e21aaa931bd84315b7b1907194ea",
+        "installed_to": [
+            "../tools/rp2paths/rp2paths.cwl"
+        ],
+        "retrieved_at": "2019-03-21T12:26:04.784516+00:00",
+        "upstream": "https://raw.githubusercontent.com/ibisba/rp2paths-cwl/1.0.2-1/tools/rp2paths.cwl",
+        "version": ""
+    }
+}
