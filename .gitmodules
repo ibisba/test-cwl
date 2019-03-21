@@ -1,0 +1,6 @@
+[submodule "workflows/github.com/ibisba/RetroPath2-cwl"]
+	path = workflows/github.com/ibisba/RetroPath2-cwl
+	url = https://github.com/ibisba/RetroPath2-cwl
+[submodule "workflows/github.com/ibisba/rp2paths-cwl"]
+	path = workflows/github.com/ibisba/rp2paths-cwl
+	url = https://github.com/ibisba/rp2paths-cwl
