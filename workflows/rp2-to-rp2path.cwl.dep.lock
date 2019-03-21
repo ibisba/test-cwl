@@ -1,0 +1,16 @@
+{
+    "github.com/ibisba/rp2paths-cwl": {
+        "installed_to": [
+            "github.com/ibisba/rp2paths-cwl"
+        ],
+        "retrieved_at": "2019-03-21T11:54:59.735728+00:00",
+        "upstream": "https://github.com/ibisba/rp2paths-cwl",
+    },
+    "github.com/ibisba/RetroPath2-cwl": {
+        "installed_to": [
+            "github.com/ibisba/RetroPath2-cwl"
+        ],
+        "retrieved_at": "2019-03-21T11:54:59.735728+00:00",
+        "upstream": "https://github.com/ibisba/RetroPath2-cwl",
+    }
+}

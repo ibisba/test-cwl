@@ -22,7 +22,7 @@ outputs:
 
 steps:
   rp2:
-    run: ../RetroPath2-cwl/tools/RetroPath2.cwl
+    run: github.com/ibisba/RetroPath2-cwl/tools/RetroPath2.cwl
     in:
       input.rulesfile: rulesfile
       input.sourcefile: sourcefile
@@ -31,8 +31,18 @@ steps:
     out: [resultsfile]
 
   rp2paths:
-    run: ../rp2paths-cwl/tools/rp2paths.cwl
+    run: github.com/ibisba/rp2paths-cwl/tools/rp2paths.cwl
     in:
       infile: rp2/resultsfile
       reverse: reverse
     out: [compounds, reactions, sinks]
+hints:
+  dep:Dependencies:
+    dependencies:
+    - upstream: https://github.com/ibisba/rp2paths-cwl
+      version: master
+    - upstream: https://github.com/ibisba/RetroPath2-cwl
+      version: master
+$namespaces:
+  dep: http://commonwl.org/cwldep#
+
