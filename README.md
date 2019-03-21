@@ -1,6 +1,6 @@
 # test-cwl
 
-Dependencies are installed with [cwldep]https://github.com/common-workflow-language/cwldep)
+Dependencies are installed with [cwldep](https://github.com/common-workflow-language/cwldep)
 
 ```
 cd workflows/
