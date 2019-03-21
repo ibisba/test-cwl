@@ -40,9 +40,9 @@ hints:
   dep:Dependencies:
     dependencies:
     - upstream: https://github.com/ibisba/rp2paths-cwl
-      version: master
+      version: 0f6d57d07f03cd3952f9c74529f8d4dd93f32c2e
     - upstream: https://github.com/ibisba/RetroPath2-cwl
-      version: master
+      version: 0f6d57d07f03cd3952f9c74529f8d4dd93f32c2e
 $namespaces:
   dep: http://commonwl.org/cwldep#
 
