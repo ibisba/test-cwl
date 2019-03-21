@@ -6,7 +6,7 @@ inputs:
   rulesfile: File
   sourcefile: File
   sinkfile: File
-  reverse: boolean?
+  reverse: boolean
   max-steps: int?
 
 outputs:
@@ -28,12 +28,12 @@ steps:
       input.sourcefile: sourcefile
       input.sinkfile: sinkfile
       input.max-steps: max-steps
-    out: [resultsfile]
+    out: [solutionfile]
 
   rp2paths:
     run: github.com/ibisba/rp2paths-cwl/tools/rp2paths.cwl
     in:
-      infile: rp2/resultsfile
+      infile: rp2/solutionfile
       reverse: reverse
     out: [compounds, reactions, sinks]
 hints:
