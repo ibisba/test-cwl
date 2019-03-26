@@ -1,0 +1,17 @@
+#!/usr/bin/env cwl-runner
+#
+cwl:tool: rp2-to-rp2path.cwl
+
+sourcefile:
+  class: File
+  path: ../examples/carotene/source.csv
+rulesfile:
+  class: File
+  path: ../examples/carotene/rules.csv
+sinkfile:
+  class: File
+  path: ../examples/carotene/sink.csv
+reverse:
+  false
+input.max-steps:
+  5
