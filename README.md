@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ibisba/test-cwl.svg?branch=master)](https://travis-ci.org/ibisba/test-cwl)
+
 # test-cwl
 
 Dependencies are installed with [cwldep](https://github.com/common-workflow-language/cwldep)
